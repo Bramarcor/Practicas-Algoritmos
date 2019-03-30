@@ -1,0 +1,23 @@
+git init	// Se inicializa el repositorio
+
+git config --global user.email "mail@mail.com"	// Se idica Tu mail
+
+git config --global user.name "nombre"	// se indica tu nombre
+
+git add [Filename]    // Agregamos el archivo al area de Staging
+
+git commit -m "mensaje": Confirmamos los cambios y versionamos en el repositorio local
+
+git status: vemos el estado de nuestro repositorio
+
+git log: vemos el historial de nuestro repositorio
+
+git checkuot -- {nombre de archivo}: deshacemos los cambios que habiamos realizado sobre {nombre de archivo}
+
+git diff: nos muestra las diferencias entre los archivos que le pidamos
+
+git rm {nombre de archivo}: elimina un archivo del repositorio y lo mete en el area de staging para confirmar el borrado haciendo un commit o volver a agregarlo al repositorio
+
+git mv {nombre de archivo} {nuevo nombre de archivo}: renombra un archivo del repositorio y lo pone en el staging area para confirmar con un commit el cabio o volver a como estaba antes.
+
+
