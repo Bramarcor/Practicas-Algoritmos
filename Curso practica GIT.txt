@@ -21,3 +21,16 @@ git rm {nombre de archivo}: elimina un archivo del repositorio y lo mete en el a
 git mv {nombre de archivo} {nuevo nombre de archivo}: renombra un archivo del repositorio y lo pone en el staging area para confirmar con un commit el cabio o volver a como estaba antes.
 
 (touch {nombre de archivo junto con extencion}: en el bash de git para crear un archivo)
+
+git clone {link del repo remoto} {nombre de carpeta}
+ linea del clone: el nombre de la carpeta sera el que tendra la carpeta que crea git cuando clona el repositorio remoto y lo guarda en esa carpeta local que crea con ese nombre.
+
+
+git remote add {nombre por defecto es origin} {link del repo remoto} : comando para asociar un repositorio remoto con el nombre especificado, por defecto es origin.
+
+git push -u origin master : comando para actualizar el repo remoto con el repo local, el repo remoto se especifica con el nombre con el que lo asociamos, en este caso es origin, y master es la rama la cual estamos actualizando. 
+
+git pull origin master: se traen el repositorio remoto al local y hace un merge automatico a los archivos que no esten en conflicto con otro desarrollador que tambien halla hecho cambios a los mismo archivos
+
+git fetch origin master: solo trae el repo remoto a un branch oculto del repo local para luego hacer un merge manual a la rama master.
+
