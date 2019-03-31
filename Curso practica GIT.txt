@@ -20,4 +20,4 @@ git rm {nombre de archivo}: elimina un archivo del repositorio y lo mete en el a
 
 git mv {nombre de archivo} {nuevo nombre de archivo}: renombra un archivo del repositorio y lo pone en el staging area para confirmar con un commit el cabio o volver a como estaba antes.
 
-
+(touch {nombre de archivo junto con extencion}: en el bash de git para crear un archivo)
