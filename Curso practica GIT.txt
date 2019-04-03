@@ -34,3 +34,6 @@ git pull origin master: se traen el repositorio remoto al local y hace un merge 
 
 git fetch origin master: solo trae el repo remoto a un branch oculto del repo local para luego hacer un merge manual a la rama master.
 
+git branch {Nombre de la nueva rama}: se crea una rama de desarrollo nueva pero no apunta todavia a la misma.
+
+git checkout {Nombre de la rama}: se apunta a la rama de desarrollo nombrada
