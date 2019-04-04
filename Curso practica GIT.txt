@@ -37,3 +37,7 @@ git fetch origin master: solo trae el repo remoto a un branch oculto del repo lo
 git branch {Nombre de la nueva rama}: se crea una rama de desarrollo nueva pero no apunta todavia a la misma.
 
 git checkout {Nombre de la rama}: se apunta a la rama de desarrollo nombrada
+
+git branch -d {nombre de la Rama}: se usa para eliminar la rama nombrada
+
+git push {referencia repo remoto} {nombre de rama creada}: se agrega la rama en el repositorio remoto.
